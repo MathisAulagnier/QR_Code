@@ -47,4 +47,4 @@ Ce script a été créé par Aulagnier Mathis.
 
 ## Licence
 
-Ce script est sous licence MIT. Consultez le fichier [LICENSE.md](LICENSE) pour plus de détails.
+Ce script est sous licence MIT. Consultez le fichier [/LICENSE.md](LICENSE) pour plus de détails.
