@@ -18,9 +18,9 @@ Pour utiliser ce script, suivez les étapes suivantes :
 
 `--url : L'URL à encoder dans le QR Code.`
 
-`--bcol : La couleur de fond du QR Code.` Blanc par défaut.
+`--bcol : La couleur de fond du QR Code.` 
 
-`--size : La taille du QR Code (entier).` 10 par défaut.
+`--size : La taille du QR Code (entier).`
 
 Voici un exemple d'utilisation :
 
