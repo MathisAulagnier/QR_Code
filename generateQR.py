@@ -22,11 +22,10 @@ def generateQR(URL='https://github.com/MathisAulagnier/QR_Code', bcol='white', s
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     
-    parser.set_defaults(url='https://github.com/MathisAulagnier/QR_Code', bcol='white', size=10)
-    
     parser.add_argument("--url", type=str, help="URL à encoder dans le QR Code")
     parser.add_argument("--bcol", type=str, help="Couleur de fond du QR Code")
     parser.add_argument("--size", type=int, help="Taille du QR Code")
     
+    parser.set_defaults(url='https://github.com/MathisAulagnier/QR_Code', bcol='white', size=10)
     args = parser.parse_args()
     generateQR(args.url, args.bcol, args.size)
