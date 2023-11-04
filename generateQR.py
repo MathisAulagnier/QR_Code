@@ -26,7 +26,6 @@ if __name__ == "__main__":
     
     parser.add_argument("--url", type=str, help="URL à encoder dans le QR Code")
     parser.add_argument("--bcol", type=str, help="Couleur de fond du QR Code")
-    parser.add_argument("--fcol", type=str, help="Couleur du QR Code")
     parser.add_argument("--size", type=int, help="Taille du QR Code")
     
     args = parser.parse_args()
